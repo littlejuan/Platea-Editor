@@ -1,0 +1,36 @@
+{
+  "interactions": [{
+    "id": "00001",
+    "type": {
+      "event": "HOT_SPOT",
+      "data": {
+        "action": "GOTO",
+        "target": "http://www.uao.edu.co/",
+        "shift": [{
+          "type": "ELLIPSE",
+          "geometry": {
+            "width": "20",
+            "height": "30"
+          },
+          "transform": [{
+            "type": "TRANSLATE",
+            "start_time": "5",
+            "duration": 12,
+            "translate": {
+              "x": "30",
+              "y": "30"
+            }
+          }]
+        }]
+      }
+    },
+    "show_time": "5",
+    "duration": 12,
+    "isPaused": false
+  }
+  ]
+}
+
+
+
+
